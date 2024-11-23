@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bg.css">
+    <style>
+        .b1{
+            display: block;
+            margin-top: 100px;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+        #h1{
+             
+           float: left;
+           padding: 20px;
+         
+        }
+        #h7{
+            
+             
+             float: right;
+             padding: 20px;
+           
+         
+        }
+        .code{
+            
+            font-style: oblique; 
+            color: rgb(57, 80, 155); 
+            border-style:groove;
+             
+             width: fit-content;
+             margin-left: 600px;
+             padding: 20px;
+
+            
+            
+
+        }
+        #x1{
+    padding: 6px;
+    background-color: rgb(206, 229, 248);
+    font-size: 15px;
+    border-radius: 1em;
+}
+#x1:hover{
+    background-color: black;
+    color: aliceblue;
+
+}
+       
+    </style>
+</head>
+<body>
+    <div class="top" style="text-align: left;">
+        
+        <a href="index.html"><img src="astroicon.png" alt="NA" height="16px" width="16px"> CODE </a>
+        <a href="Java.html">Java</a>
+        <a href="Python.html">Python</a>
+        <a href="contact.html">Contact</a>
+        <a href="about.html">About</a>
+      </div>
+      <hr>
+    <h1> C++ Course </h1>
+    <hr>
+    
+    <div class="b1" style="clear: both;">
+        <img src="cprog.png" alt="NA" width="250px" height="250px" style="float: right; margin-right: 110px;" >
+        <div id="h1">
+            <h1> What is C++? </h1>
+        <p>
+            
+            Java is a programming language and computing platform first released by Sun Microsystems in 1995.
+            <br> It has evolved from humble beginnings to power a large share of today’s digital world, by providing
+            <br> the reliable platform upon which many services and applications are built. 
+            <br>New, innovative products and digital services designed for the future continue to rely on Java, as well
+
+        </p>
+    </div>
+    </div>
+    <br><br><br>
+    <div class="b1" style="margin-top:350px; margin-bottom: 150px; clear: both;">
+        <img src="prgrm.png" alt="NA" width="200px" height="219px" style="float:left;" >
+        <div>
+        <h1 style="margin-left: 500px;"> Why use C++? </h1>
+        <p style="padding: 20px;float: right; ">
+            
+            C++ is an advanced language that supports various programming methods like <br>functional, procedural, and
+             object-oriented programming. 
+             <br>It is a fast language; its compile-time and execution time is faster than other programming languages.
+        </p>
+    </div>
+    </div>
+
+<div style=" background-color: aliceblue;
+            color: black; display: block; margin-top: 300px;">
+    <p style="margin-top: 100px; float: left; text-align: left;">
+        <h1 style="padding-top: 50px;"> HOW TO CODE </h1>
+        We're going to use the following code to print hello world to the screen <br>
+    </p>
+    <br>
+    <p class="code">
+            <br>#include <iostream> <br>
+                using namespace std;<br>
+                
+                int main() <br>
+                {<br>
+                    
+                    cout << "Hello World";<br>
+                
+                    return 0;<br>
+                }
+            <br>
+    </p>
+            
+    <BR>
+    </p>
+    <br>
+    <p> Code explanation:
+        <p style="font-style: oblique; color: rgb(57, 80, 155);">#include</p> 
+        #include<iostream> tells the compiler to include the standard iostream file which contains 
+        <br>declarations of all the standard input/output library functions<br><br>
+        <p style="font-style: oblique; color:rgb(57, 80, 155) ;">using namespace std</p> 
+        This is used to import the entity of the std namespace into the current namespace of the program. 
+        
+        <p style="font-style: oblique; color:rgb(57, 80, 155);">int main() { }</p>
+        function is a group of statements that are designed to perform a specific task. <br>
+        The main() function is the entry point of every C++ program, no matter where the
+        <br>function is located in the program.
+        <br>The opening braces ‘{‘ indicates the beginning of the main function and the closing
+        <br> braces ‘}’ indicates the ending of the main function. <br>
+        <p style="font-style: oblique; color:rgb(57, 80, 155);">cout<<“Hello World”;</p>
+        std::cout is an instance of the std::ostream class, that is used to display output on the screen.
+        <br> Everything followed by the character << in double quotes ” ” is displayed on the output device. 
+        <br>The semi-colon character at the end of the statement is used to indicate that the statement is ending there.<br>
+        <p style="font-style: oblique; color:rgb(57, 80, 155);">return 0</p>
+        This statement is used to return a value from a function and indicates the finishing of a function. 
+        <br>This statement is basically used in functions to return the results of the operations performed by a function.
+
+    <br> <br><img src="C++output.png" alt="NA" width="1000px"height="150px" style="margin-bottom: 150px;"> 
+    <br> <hr>
+    
+    </p>
+    <p>
+        You can watch this video for further explanation <br>
+        <video src="C1.mp4" width="500px" height="300px" autoplay loop muted controls></video>
+        <br><br>
+    </p>
+    
+    </div>
+</div>
+<br>
+
+
+<h1>Test yourself!</h1>
+<hr>
+<form>
+    <p1 style="font-style:oblique;">What is a correct syntax to output "Hello World" in C++? </p1>
+         <br><br><br>
+        <input type="radio" name="q1" value="T"> cout << "Hello World"; <br>
+        <input type="radio" name="q1" value="F"> System.out.println("Hello World"); <br>
+        <input type="radio" name="q1" value="F"> print ("Hello World"); <br> <br>
+     
+        <button id="x1"> submit </button>
+    <br><br>
+         
+    </form>
+</div>
+
+
+</body>
+</html>
